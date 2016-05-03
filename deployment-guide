@@ -22,4 +22,7 @@ curl -s http://localhost:1111/api/v1/bmad/z-composite/gamma-1
 
 
 **_TESTING SERVICE FAILURES_**
+When the z-dummy-api-alpha service is stopped
 curl -s http://localhost:1111/api/v1/bmad/z-composite/c-alpha1 
+returns
+Fallback for alpha-1 is up%
