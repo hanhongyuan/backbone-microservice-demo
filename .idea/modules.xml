@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/edge-server/edge-server.iml" filepath="$PROJECT_DIR$/edge-server/edge-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" filepath="$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" />
       <module fileurl="file://$PROJECT_DIR$/z-dummy-api-beta/z-dummy-api-beta.iml" filepath="$PROJECT_DIR$/z-dummy-api-beta/z-dummy-api-beta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-dummy-api-composite/z-dummy-api-composite.iml" filepath="$PROJECT_DIR$/z-dummy-api-composite/z-dummy-api-composite.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,52 @@
+server:
+    port: 4444
+
+
+
+
+ribbon:
+  # Interval to refresh the server list from the source
+  serverListRefreshInterval: 1000
+#
+#  # Connect timeout used by Apache HttpClient
+#  connectTimeout: 100
+#
+#  # Read timeout used by Apache HttpClient
+#  readTimeout: 10000
+#
+#  ConnectTimeout: 100
+#  ReadTimeout: 3000
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 1
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+  client:
+    # Default values comes from org.springframework.cloud.netflix.eurek.EurekaClientConfigBean
+    registryFetchIntervalSeconds: 1
+    instanceInfoReplicationIntervalSeconds: 1
+    initialInstanceInfoReplicationIntervalSeconds: 1
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+app:
+  ConnectTimeout: 100
+  ReadTimeout: 3000
+
+#    region: default
+#    availabilityZones:
+#      default: ${APPLICATION_DOMAIN:${DOMAIN:defaultZone}}
+
+#stores:
+#  ribbon:
+#    ServerListRefreshInterval: 1000
+
+
+#eureka:
+#    client:
+#        serviceUrl:
+#             defaultZone: http://localhost:8761/eureka/
+#        healthcheck:
+#                  enabled: true

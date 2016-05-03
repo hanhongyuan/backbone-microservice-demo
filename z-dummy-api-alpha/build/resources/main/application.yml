@@ -1,11 +1,3 @@
-spring:
-    application:
-        name: z-dummy-api-alpha-server
-    cloud:
-        config:
-            uri: http://localhost:9090
-
-
 server:
     port: 2222
 

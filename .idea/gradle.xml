@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/edge-server" />
             <option value="$PROJECT_DIR$/z-dummy-api-alpha" />
             <option value="$PROJECT_DIR$/z-dummy-api-beta" />
+            <option value="$PROJECT_DIR$/z-dummy-api-composite" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -26,6 +27,7 @@
             <option value="$PROJECT_DIR$/edge-server" />
             <option value="$PROJECT_DIR$/z-dummy-api-alpha" />
             <option value="$PROJECT_DIR$/z-dummy-api-beta" />
+            <option value="$PROJECT_DIR$/z-dummy-api-composite" />
           </set>
         </option>
       </GradleProjectSettings>

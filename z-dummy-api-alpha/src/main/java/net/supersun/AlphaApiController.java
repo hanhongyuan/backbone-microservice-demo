@@ -17,14 +17,14 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 @Produces(APPLICATION_JSON)
 @Consumes(APPLICATION_JSON)
 @RestController
-public class BetaController {
+public class AlphaApiController {
 
-    @RequestMapping(value= "/beta-1")
-    public String beta1() {
-        return "beta-1 is up";
+    @RequestMapping(value= "/alpha-1")
+    public String alpha1() {
+        return "alpha-1 is up";
     }
-    @RequestMapping(value= "/beta-2")
-    public String beta2() {
-        return "beta-2 is up";
+    @RequestMapping(value= "/alpha-2")
+    public String alpha2() {
+        return "alpha-2 is up";
     }
 }

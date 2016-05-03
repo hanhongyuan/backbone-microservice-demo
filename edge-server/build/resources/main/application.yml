@@ -41,6 +41,8 @@ zuul:
       path: /z-alpha/**
     z-dummy-api-beta-server:
       path: /z-beta/**
+    z-dummy-api-composite-server:
+      path: /z-composite/**
 
 logging:
   level:

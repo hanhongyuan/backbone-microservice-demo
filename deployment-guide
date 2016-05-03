@@ -7,6 +7,8 @@ curl -s http://localhost:2222/alpha-2
 curl -s http://localhost:3333/beta-1 
 curl -s http://localhost:3333/beta-2
 
+curl -s http://localhost:4444/gamma-1
+
 
 
 **_TESTING THE API SERVICES FROM ZUUL_**
@@ -16,4 +18,8 @@ curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-2
 curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-1
 curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-2
 
+curl -s http://localhost:1111/api/v1/bmad/z-composite/gamma-1 
 
+
+**_TESTING SERVICE FAILURES_**
+curl -s http://localhost:1111/api/v1/bmad/z-composite/c-alpha1 
