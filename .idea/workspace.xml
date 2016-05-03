@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50305092-594d-4be3-9cca-0242fcdcd5fd" name="Default" comment="" />
+    <list default="true" id="50305092-594d-4be3-9cca-0242fcdcd5fd" name="Default" comment="all">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="backbone-microservice-architecture.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -190,8 +192,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.625">
-                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.065789476">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -239,6 +241,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -3032,16 +3035,16 @@
       <updated>1461051306561</updated>
       <workItem from="1461051310813" duration="18498000" />
       <workItem from="1461140648993" duration="20956000" />
-      <workItem from="1462264276728" duration="4695000" />
+      <workItem from="1462264276728" duration="4909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44149000" />
+    <option name="totallyTimeSpent" value="44363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3481,8 +3484,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.625">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.065789476">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />
