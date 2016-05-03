@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backbone-microservice-architecture.iml" filepath="$PROJECT_DIR$/backbone-microservice-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edge-server/edge-server.iml" filepath="$PROJECT_DIR$/edge-server/edge-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" filepath="$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-dummy-api-beta/z-dummy-api-beta.iml" filepath="$PROJECT_DIR$/z-dummy-api-beta/z-dummy-api-beta.iml" />
+    </modules>
+  </component>
+</project>

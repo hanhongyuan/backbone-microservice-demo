@@ -1,0 +1,66 @@
+server:
+    port: 1111
+
+info:
+  component: Edge Server
+
+#eureka:
+#    client:
+#        serviceUrl:
+#             defaultZone: http://localhost:8761/eureka/
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 3
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+  client:
+    # Default values comes from org.springframework.cloud.netflix.eurek.EurekaClientConfigBean
+    registryFetchIntervalSeconds: 5
+    instanceInfoReplicationIntervalSeconds: 5
+    initialInstanceInfoReplicationIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+
+zuul:
+  ignoredServices: "*"
+  prefix: /api/v1/bmad
+  routes:
+    z-dummy-api-alpha-server:
+      path: /z-alpha/**
+    z-dummy-api-beta-server:
+      path: /z-beta/**
+
+logging:
+  level:
+    ROOT: WARN
+    net.supersun: INFO
+
+    # Get info regarding connection to the cofig server and retries if required
+    org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: INFO
+    org.springframework.retry.support.RetryTemplate: DEBUG
+
+    # Set INFO to see the allocated port
+    org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer: INFO
+    org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainer: INFO
+
+    # Set DEBUG level on Hystrix to get an error message when a fallback method is used.
+    com.netflix.hystrix: DEBUG
+    com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty: WARN
+
+
+
+#PLEASE MAKE THIS SETTING BELOW TRUE else u will be faced with the error below
+#{"timestamp":1461172333067,"status":500,"error":"Internal Server Error","exception":"com.netflix.zuul.exception.ZuulException","message":"Forwarding error"}%
+ribbon.eureka.enabled: true
