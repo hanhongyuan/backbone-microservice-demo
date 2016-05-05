@@ -2,8 +2,8 @@ package net.supersun.edgeserver;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
@@ -32,7 +32,9 @@ import javax.net.ssl.HttpsURLConnection;
 public class EdgeServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EdgeServerApplication.class, args);
+
+        new SpringApplicationBuilder(EdgeServerApplication.class).web(true).run(args);
+//        SpringApplication.run(EdgeServerApplication.class, args);
     }
 
     private static final Logger LOG = LoggerFactory.getLogger(EdgeServerApplication.class);

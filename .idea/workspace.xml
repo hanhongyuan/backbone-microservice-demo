@@ -1,101 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/edge-server/src/main/resources/application.yml" description="ribbon.eureka.enabled: true" line="119" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50305092-594d-4be3-9cca-0242fcdcd5fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edge-server/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/iyeke.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_servo_servo_core_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_servo_servo_internal_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_fluent_hc_4_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_1_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_security_1_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_security_1_1_0_M2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_config_1_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_oauth2_1_1_0_M2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_security_1_1_0_M2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_oauth_spring_security_oauth2_2_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_jwt_1_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/auth-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/net/supersun/AuthServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/net/supersun/AuthorityConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/net/supersun/OAuth2Configuration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/net/supersun/XTrustProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/templates/authorize.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/java/net/supersun/TomcatHttpHttpsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/java/net/supersun/XTrustProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/net/supersun/discoveryserver/TomcatHttpHttpsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/net/supersun/discoveryserver/XTrustProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/TomcatHttpHttpsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/XTrustProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/TomcatHttpHttpsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/XTrustProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/TomcatHttpHttpsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/XTrustProvider.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_feign_feign_core_8_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_feign_feign_ribbon_8_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_feign_feign_slf4j_8_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_feign_1_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server/build/libs/config-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server/build/resources/main/bootstrap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/discovery-server/build/libs/config-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/discovery-server/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/discovery-server/build/resources/main/bootstrap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/discovery-server/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/edge-server/build/libs/edge-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/edge-server/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/edge-server/build/resources/main/bootstrap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/edge-server/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/build/libs/z-dummy-api-alpha-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-beta/build/libs/z-dummy-api-beta-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-beta/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/z-dummy-api-beta/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/build.gradle" afterPath="$PROJECT_DIR$/config-server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/config-server.iml" afterPath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deployment-guide" afterPath="$PROJECT_DIR$/deployment-guide" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery-server/build.gradle" afterPath="$PROJECT_DIR$/discovery-server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery-server/src/main/java/net/supersun/discoveryserver/DiscoveryServerApplication.java" afterPath="$PROJECT_DIR$/discovery-server/src/main/java/net/supersun/discoveryserver/DiscoveryServerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edge-server/build.gradle" afterPath="$PROJECT_DIR$/edge-server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edge-server/edge-server.iml" afterPath="$PROJECT_DIR$/edge-server/edge-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java" afterPath="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edge-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edge-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/build.gradle" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/AlphaApplication.java" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/AlphaApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" afterPath="$PROJECT_DIR$/z-dummy-api-alpha/z-dummy-api-alpha.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-beta/src/main/java/net/supersun/BetaApplication.java" afterPath="$PROJECT_DIR$/z-dummy-api-beta/src/main/java/net/supersun/BetaApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/z-dummy-api-composite/z-dummy-api-composite.iml" afterPath="$PROJECT_DIR$/z-dummy-api-composite/z-dummy-api-composite.iml" />
     </list>
     <ignored path="backbone-microservice-architecture.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -235,108 +149,106 @@
     <favorites_list name="backbone-microservice-architecture" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EdgeServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edge-server/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlphaApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/AlphaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompositeApiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery-server/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/discovery-server/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2026726">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.64817">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="EdgeServerApplication.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.9433963">
+                  <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CompositeApiController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.97744364">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CompositeApplication.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/application.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TomcatHttpHttpsConfig.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/TomcatHttpHttpsConfig.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="XTrustProvider.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/XTrustProvider.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/bootstrap.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.9924812">
+                  <caret line="53" column="0" selection-start-line="12" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2920,18 +2832,18 @@
         <option value="$PROJECT_DIR$/discovery-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/discovery-server/src/main/java/net/supersun/discoveryserver/DiscoveryServerApplication.java" />
-        <option value="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/AlphaApplication.java" />
         <option value="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java" />
         <option value="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java" />
-        <option value="$PROJECT_DIR$/edge-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java" />
         <option value="$PROJECT_DIR$/edge-server/build.gradle" />
         <option value="$PROJECT_DIR$/z-dummy-api-alpha/build.gradle" />
         <option value="$PROJECT_DIR$/z-dummy-api-composite/build.gradle" />
         <option value="$PROJECT_DIR$/discovery-server/build.gradle" />
+        <option value="$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java" />
+        <option value="$PROJECT_DIR$/edge-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -3155,6 +3067,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3288,6 +3204,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone-microservice-architecture-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supersun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -3336,13 +3336,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="net.supersun.discoveryserver.DiscoveryServerApplication" />
-      <module name="discovery-server" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="CompositeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.supersun.CompositeApplication" />
@@ -3366,6 +3359,13 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.supersun.AuthServerApplication" />
+      <module name="auth-server" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -3869,17 +3869,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.AlphaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EdgeServerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.CompositeApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.backbone-microservice-architecture-demo [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.CompositeApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.backbone-microservice-architecture-demo [clean]" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.AuthServerApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.backbone-microservice-architecture-demo [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.CompositeApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.AlphaApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.EdgeServerApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.CompositeApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AlphaApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EdgeServerApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.AuthServerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.backbone-microservice-architecture-demo [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -3902,7 +3902,7 @@
       <workItem from="1461051310813" duration="18498000" />
       <workItem from="1461140648993" duration="20956000" />
       <workItem from="1462264276728" duration="27281000" />
-      <workItem from="1462364039898" duration="30257000" />
+      <workItem from="1462364039898" duration="33372000" />
     </task>
     <task id="LOCAL-00001" summary="**_TESTING THE API SERVICES INDEPENDENTLY FROM ZUUL / EUREKA_** HTTPS&#10;curl -s http://localhost:2222/alpha-1 &#10;curl -s http://localhost:2222/alpha-2&#10; &#10;curl -s http://localhost:3333/beta-1 &#10;curl -s http://localhost:3333/beta-2&#10;&#10;&#10;&#10;**_TESTING THE API SERVICES FROM ZUUL_**&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-2&#10;&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-2">
       <created>1462269294426</created>
@@ -3928,15 +3928,21 @@
       <option name="project" value="LOCAL" />
       <updated>1462278217541</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="**M1  for HTTPS W/O  CONFIG-SERVER AND LOAD BALANCING FROM COMPOSITE  TO OTHER API'S**">
+      <created>1462472726205</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462472726205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96992000" />
+    <option name="totallyTimeSpent" value="100107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3948,13 +3954,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4067164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46890548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40049753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14091559" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4016,7 +4022,8 @@
     <MESSAGE value="**_TESTING THE API SERVICES INDEPENDENTLY FROM ZUUL / EUREKA_** HTTPS&#10;curl -s http://localhost:2222/alpha-1 &#10;curl -s http://localhost:2222/alpha-2&#10; &#10;curl -s http://localhost:3333/beta-1 &#10;curl -s http://localhost:3333/beta-2&#10;&#10;&#10;&#10;**_TESTING THE API SERVICES FROM ZUUL_**&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-2&#10;&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-2" />
     <MESSAGE value="**_TESTING THE API SERVICES INDEPENDENTLY FROM ZUUL / EUREKA_** HTTP&#10;curl -s http://localhost:2222/alpha-1 &#10;curl -s http://localhost:2222/alpha-2&#10; &#10;curl -s http://localhost:3333/beta-1 &#10;curl -s http://localhost:3333/beta-2&#10;&#10;&#10;&#10;**_TESTING THE API SERVICES FROM ZUUL_**&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-alpha/alpha-2&#10;&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-1&#10;curl -s http://localhost:1111/api/v1/bmad/z-beta/beta-2" />
     <MESSAGE value="**_TESTING THE API SERVICES WITH CIRCUIT BREAKER_** HTTP&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="**_TESTING THE API SERVICES WITH CIRCUIT BREAKER_** HTTP&#10;" />
+    <MESSAGE value="**M1  for HTTPS W/O  CONFIG-SERVER AND LOAD BALANCING FROM COMPOSITE  TO OTHER API'S**" />
+    <option name="LAST_COMMIT_MESSAGE" value="**M1  for HTTPS W/O  CONFIG-SERVER AND LOAD BALANCING FROM COMPOSITE  TO OTHER API'S**" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4055,6 +4062,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4100,6 +4108,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4107,6 +4116,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4162,6 +4172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4177,14 +4188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="242" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="242" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4306,30 +4309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/XTrustProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/TomcatHttpHttpsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/discovery-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4354,14 +4333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/src/main/java/net/supersun/AlphaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4381,38 +4352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57925636">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edge-server/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4421,18 +4360,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/build.gradle">
+    <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/build.gradle">
+    <entry file="file://$PROJECT_DIR$/edge-server/src/main/java/net/supersun/edgeserver/EdgeServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.9433963">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9924812">
+          <caret line="53" column="0" selection-start-line="12" selection-start-column="23" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-alpha/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30066815">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4441,6 +4396,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2026726">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23162584">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edge-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/TomcatHttpHttpsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/XTrustProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-dummy-api-composite/src/main/java/net/supersun/CompositeApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97744364">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>

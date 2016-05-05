@@ -9,6 +9,8 @@ server:
       key-store: classpath:iyeke.jks
       key-store-password: password
       key-password: password
+#      clientAuth: want
+      trust-store: classpath:iyeke.jks
 
 
 info:
@@ -64,6 +66,12 @@ ribbon:
 
 eureka:
   instance:
+
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    securePort: ${server.port}
+    homePageUrl: https://${eureka.instance.hostname}:${server.port}/
+
     leaseRenewalIntervalInSeconds: 3
 #    leaseExpirationDurationInSeconds: 1
     secureVirtualHostName: ${spring.application.name}

@@ -10,6 +10,10 @@ server:
       key-store-password: password
       key-password: password
 
+#      clientAuth: want
+      trust-store: classpath:iyeke.jks
+
+
 
 info:
   component: Edge Server
