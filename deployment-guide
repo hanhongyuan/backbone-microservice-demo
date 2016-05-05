@@ -26,3 +26,17 @@ When the z-dummy-api-alpha service is stopped
 curl -s http://localhost:1111/api/v1/bmad/z-composite/c-alpha1 
 returns
 Fallback for alpha-1 is up%
+
+
+
+
+**_HTTPS_**
+
+**_TOKEN REQUEST_**
+curl -X POST -k -u yellow_dot_phone_pay_clientID:YellowDotClientSecret https://localhost:9999/uaa/oauth/token -d grant_type=password -d client_id=yellow_dot_phone_pay_clientID -d scope=trust -d username=user -d password=password | jq .
+
+
+curl -k vu  https://localhost:4444/gamma-1 -H "Authorization: Bearer $TOKEN" -s
+curl -k vu  https://localhost:2222/alpha-1 -H "Authorization: Bearer $TOKEN" -s
+
+curl -k vu  https://localhost:1111/api/v1/bmad/z-composite/gamma-1 -H "Authorization: Bearer $TOKEN" -s

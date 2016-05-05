@@ -2,3 +2,7 @@ spring:
   application:
     name: config-server
 
+#  cloud:
+#      config:
+#        uri: ${SPRING_CONFIG_URI:https://localhost:8888}
+

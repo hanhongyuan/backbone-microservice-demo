@@ -1,5 +1,15 @@
 server:
-    port: 1111
+  port: 1111
+  http.port: 1110
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+  ssl:
+      enabled: true
+      key-store: classpath:iyeke.jks
+      key-store-password: password
+      key-password: password
+
 
 info:
   component: Edge Server
@@ -9,18 +19,52 @@ info:
 #        serviceUrl:
 #             defaultZone: http://localhost:8761/eureka/
 
+
+#spring:
+#  oauth2:
+#    resource:
+#      userInfoUri: https://localhost:9999/uaa/user
+
+
+security.oauth2.resource.userInfoUri: https://localhost:9999/uaa/user
+
+hystrix:
+  threadpool:
+    default:
+      # Maximum number of concurrent requests when using thread pools (Default: 10)
+      coreSize: 100
+      # Maximum LinkedBlockingQueue size - -1 for using SynchronousQueue (Default: -1)
+      maxQueueSize: -1
+      # Queue size rejection threshold (Default: 5)
+      queueSizeRejectionThreshold: 5
+  command:
+    default:
+      circuitBreaker:
+        sleepWindowInMilliseconds: 30000
+        requestVolumeThreshold: 20
+      execution:
+        isolation:
+#          strategy: SEMAPHORE, no thread pool but timeout handling stops to work
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 10000
+
+
 eureka:
   instance:
+#    preferIpAddress: true
     leaseRenewalIntervalInSeconds: 3
-    metadataMap:
-      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+    secureVirtualHostName: ${spring.application.name}
+#    metadataMap:
+#      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
   client:
     # Default values comes from org.springframework.cloud.netflix.eurek.EurekaClientConfigBean
     registryFetchIntervalSeconds: 5
     instanceInfoReplicationIntervalSeconds: 5
     initialInstanceInfoReplicationIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+#      defaultZone: https://localhost:8761/eureka/
+      defaultZone: https://user:password@localhost:8761/eureka/
 
 
 
@@ -39,15 +83,19 @@ zuul:
   routes:
     z-dummy-api-alpha-server:
       path: /z-alpha/**
+#      serviceId: z-dummy-api-alpha-server
     z-dummy-api-beta-server:
       path: /z-beta/**
     z-dummy-api-composite-server:
       path: /z-composite/**
+#      serviceId: z-dummy-api-composite-server
+
 
 logging:
   level:
-    ROOT: WARN
-    net.supersun: INFO
+#    ROOT: WARN
+    ROOT: INFO
+    net.supersun: DEBUG
 
     # Get info regarding connection to the cofig server and retries if required
     org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: INFO
@@ -66,3 +114,16 @@ logging:
 #PLEASE MAKE THIS SETTING BELOW TRUE else u will be faced with the error below
 #{"timestamp":1461172333067,"status":500,"error":"Internal Server Error","exception":"com.netflix.zuul.exception.ZuulException","message":"Forwarding error"}%
 ribbon.eureka.enabled: true
+
+ribbon.IsSecure: true
+#eureka.instance.secureVirtualHostName: ${spring.application.name}
+
+
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 5000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+  OkToRetryOnAllOperations: false
+  MaxHttpConnectionsPerHost: 200
+  MaxTotalHttpConnections: 1000

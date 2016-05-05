@@ -5,4 +5,5 @@ include 'discovery-server'
 include 'z-dummy-api-alpha'
 include 'z-dummy-api-beta'
 include 'z-dummy-api-composite'
+include 'auth-server'
 

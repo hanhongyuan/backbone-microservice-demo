@@ -1,9 +1,82 @@
 server:
-    port: 2222
+  port: 2222
+  http.port: 2221
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+  ssl:
+      enabled: true
+      key-store: classpath:iyeke.jks
+      key-store-password: password
+      key-password: password
+
+
+info:
+  component: Z-DUMMY API SERVICE
+
+#Please make sure you are using security.oauth2 & not spring.oauth2
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://localhost:9999/uaa/user
+
+
+management:
+  security:
+    enabled: false
+
+hystrix:
+  threadpool:
+    default:
+      # Maximum number of concurrent requests when using thread pools (Default: 10)
+      coreSize: 100
+      # Maximum LinkedBlockingQueue size - -1 for using SynchronousQueue (Default: -1)
+      maxQueueSize: -1
+      # Queue size rejection threshold (Default: 5)
+      queueSizeRejectionThreshold: 5
+  command:
+    default:
+      circuitBreaker:
+        sleepWindowInMilliseconds: 30000
+        requestVolumeThreshold: 2
+      execution:
+        isolation:
+#          strategy: SEMAPHORE, no thread pool but timeout handling stops to work
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 6000
+
+#ribbon:
+#  ConnectTimeout: 100
+#  ReadTimeout: 3000
+
+app:
+  ConnectTimeout: 100
+  ReadTimeout: 5000
+
+
+ribbon:
+  eureka:
+    enabled: true
+  IsSecure: true
+
 
 eureka:
-    client:
-        serviceUrl:
-             defaultZone: http://localhost:8761/eureka/
-        healthcheck:
-                  enabled: true
+  instance:
+    leaseRenewalIntervalInSeconds: 3
+#    preferIpAddress: true
+    secureVirtualHostName: ${spring.application.name}
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
+  client:
+    # Default values comes from org.springframework.cloud.netflix.eurek.EurekaClientConfigBean
+    registryFetchIntervalSeconds: 5
+    instanceInfoReplicationIntervalSeconds: 5
+    initialInstanceInfoReplicationIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: https://localhost:8761/eureka/
+#      defaultZone: https://user:password@localhost:8761/eureka/
+
+#ribbon.eureka.enabled: true
+#ribbon.IsSecure: true
+#eureka.instance.secureVirtualHostName: ${spring.application.name}

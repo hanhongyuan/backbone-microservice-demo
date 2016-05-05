@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.servo:servo-core:0.10.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.0/daf518e946c3822a5215a69477e9bf52ba6a7df4/servo-core-0.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.0/618da9d326f88b19d3bda60fac9d7709b618f4d5/servo-core-0.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

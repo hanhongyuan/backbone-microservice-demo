@@ -37,9 +37,11 @@ public class CompositeApiController {
 
         LOG.debug("Will alpha1 with Hystrix protection");
 
-        String url = "http://z-dummy-api-alpha-server/alpha-1/";
+        String url = "https://z-dummy-api-alpha-server/alpha-1/";
+//        String url = "https://localhost:2222/alpha-1/alpha-1/";
         LOG.debug("Get alpha1 from URL: {}", url);
 
+//        restTemplate.
 
         ResponseEntity<String> originalAlpha1Response = restTemplate.getForEntity(url, String.class);
 

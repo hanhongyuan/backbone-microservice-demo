@@ -1,13 +1,43 @@
+#server:
+#    port: 7777
+
+
 server:
-    port: 7777
+  port: 8888
+  http.port: 8887
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+  ssl:
+      enabled: true
+      key-store: classpath:iyeke.jks
+      key-store-password: password
+      key-password: password
 
 spring.cloud.config.server.git.uri: https://github.com/supersun/backbone-microservice-demo.git
 
 
+#eureka:
+#    client:
+#        serviceUrl:
+#             defaultZone: https://localhost:8761/eureka/
+
 eureka:
-    client:
-        serviceUrl:
-             defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    securePortEnabled: true
+    nonSecurePortEnabled: false
+    securePort: 8888
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    secureVirtualHostName: ${spring.application.name}
+    metadataMap:
+      password: ${security.user.password:password}
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    serviceUrl:
+#      defaultZone: ${vcap.services.${PREFIX:}eureka.credentials.uri:https://user:password@localhost:8761}/eureka/
+      defaultZone: https://localhost:8761/eureka/
 
 
 

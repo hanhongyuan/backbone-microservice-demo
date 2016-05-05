@@ -1,16 +1,48 @@
+#server:
+#    port: 8761
+
 server:
-    port: 8761
+  port: 8761
+  http.port: 8760
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+  ssl:
+      enabled: true
+      key-store: classpath:iyeke.jks
+      key-store-password: password
+      key-password: password
 
 # Defines the Eureka server that is used by the Netflix OSS components to use as the registry
 # for server discovery
-eureka:
-    instance:
-        hostname: localhost
-        leaseRenewalIntervalInSeconds: 5
-    client:
-        server:
-            waitTimeInMsWhenSyncEmpty: 0
-        registerWithEureka: false
-        fetchRegistry: false
-        serviceUrl:
-            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#eureka:
+#    instance:
+#        hostname: localhost
+#        leaseRenewalIntervalInSeconds: 5
+#    client:
+#        server:
+#            waitTimeInMsWhenSyncEmpty: 0
+#        registerWithEureka: false
+#        fetchRegistry: false
+#        serviceUrl:
+#            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+eureka.instance.hostname: localhost
+eureka.instance.securePort: ${server.port}
+eureka.instance.securePortEnabled: true
+eureka.instance.nonSecurePortEnabled: false
+eureka.instance.metadataMap.hostname: ${eureka.instance.hostname}
+eureka.instance.metadataMap.securePort: ${server.port}
+eureka.instance.homePageUrl: https://${eureka.instance.hostname}:${server.port}/
+eureka.instance.statusPageUrl: https://${eureka.instance.hostname}:${server.port}/admin/info
+eureka.instance.healthCheckUrl: https://${eureka.instance.hostname}:${server.port}/health
+
+
+eureka.instance.leaseRenewalIntervalInSeconds: 5
+eureka.client.server.waitTimeInMsWhenSyncEmpty: 0
+eureka.client.registerWithEureka: false
+eureka.client.fetchRegistry: false
+eureka.client.serviceUrl.defaultZone: https://${eureka.instance.hostname}:${server.port}/eureka/
+
+ribbon.eureka.enabled: true

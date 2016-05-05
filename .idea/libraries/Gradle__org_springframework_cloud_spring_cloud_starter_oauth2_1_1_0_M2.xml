@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-oauth2:1.1.0.M2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-oauth2/1.1.0.M2/44c70563b69e6ec66b05b26754db2a64ca917cf6/spring-cloud-starter-oauth2-1.1.0.M2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-oauth2/1.1.0.M2/1bb54e9a6381adba07101aa979d5d9f0ed5582e4/spring-cloud-starter-oauth2-1.1.0.M2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

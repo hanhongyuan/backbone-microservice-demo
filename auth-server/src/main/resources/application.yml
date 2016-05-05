@@ -1,0 +1,36 @@
+server:
+  port: 9999
+  http:
+    port: 9998
+  ssl:
+#    enabled: true
+    key-store-filename: iyeke.jks
+    key-store: classpath:${server.ssl.key-store-filename}
+    key-store-password: password
+    key-password: password
+    key-store-type: JKS
+    key-alias: tomcat
+
+
+server.contextPath: /uaa
+
+security.user.password: password
+
+
+info.component: OAuth Auth Server
+
+logging.level.root: WARN
+logging.level.org.springframework.security.oauth2: DEBUG
+logging.level.org.springframework.security.oauth2.config.annotation.web.configurers.FrameworkEndpointHandlerMapping: INFO
+logging.level.org.springframework.security.oauth2.provider.client.ClientCredentialsTokenGranter: DEBUG
+logging.level.org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter: DEBUG
+logging.level.org.springframework.security.oauth2.provider.code.AuthorizationCodeTokenGranter: DEBUG
+logging.level.org.springframework.security.oauth2.provider.implicit.ImplicitTokenGranter: DEBUG
+logging.level.org.springframework.security.oauth2.provider.approval.ApprovalStoreUserApprovalHandler: DEBUG
+logging.level.org.springframework.security.oauth2.provider.endpoint.TokenEndpoint: INFO
+logging.level.org.springframework.security.oauth2.provider.approval.AuthorizationEndpoint: INFO
+logging.level.org.springframework.security: DEBUG
+
+# Set INFO to see the allocated port
+logging.level.org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer: INFO
+logging.level.org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainer: INFO

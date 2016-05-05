@@ -1,10 +1,55 @@
 server:
-    port: 4444
+  port: 4444
+  http.port: 4443
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+  ssl:
+      enabled: true
+      key-store: classpath:iyeke.jks
+      key-store-password: password
+      key-password: password
 
+
+info:
+  component: Z-DUMMY COMPOSITE SERVICE
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://localhost:9999/uaa/user
+
+management:
+  security:
+    enabled: false
+
+hystrix:
+  threadpool:
+    default:
+      # Maximum number of concurrent requests when using thread pools (Default: 10)
+      coreSize: 100
+      # Maximum LinkedBlockingQueue size - -1 for using SynchronousQueue (Default: -1)
+      maxQueueSize: -1
+      # Queue size rejection threshold (Default: 5)
+      queueSizeRejectionThreshold: 5
+  command:
+    default:
+      circuitBreaker:
+        sleepWindowInMilliseconds: 30000
+        requestVolumeThreshold: 2
+      execution:
+        isolation:
+#          strategy: SEMAPHORE, no thread pool but timeout handling stops to work
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 6000
 
 
 
 ribbon:
+  eureka:
+    enabled: true
+  IsSecure: true
   # Interval to refresh the server list from the source
   serverListRefreshInterval: 1000
 #
@@ -19,34 +64,27 @@ ribbon:
 
 eureka:
   instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 1
+    leaseRenewalIntervalInSeconds: 3
+#    leaseExpirationDurationInSeconds: 1
+    secureVirtualHostName: ${spring.application.name}
+
+#    securePort: ${eureka.server.port:8761}
+#    securePortEnabled: true
+#    nonSecurePortEnabled: false
+#
+#    preferIpAddress: true
     metadataMap:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${random.value}}}
   client:
     # Default values comes from org.springframework.cloud.netflix.eurek.EurekaClientConfigBean
-    registryFetchIntervalSeconds: 1
-    instanceInfoReplicationIntervalSeconds: 1
-    initialInstanceInfoReplicationIntervalSeconds: 1
+    registryFetchIntervalSeconds: 5
+    instanceInfoReplicationIntervalSeconds: 5
+    initialInstanceInfoReplicationIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://localhost:8761/eureka/
+#      defaultZone: https://user:password@localhost:8761/eureka/
+
 
 app:
   ConnectTimeout: 100
   ReadTimeout: 3000
-
-#    region: default
-#    availabilityZones:
-#      default: ${APPLICATION_DOMAIN:${DOMAIN:defaultZone}}
-
-#stores:
-#  ribbon:
-#    ServerListRefreshInterval: 1000
-
-
-#eureka:
-#    client:
-#        serviceUrl:
-#             defaultZone: http://localhost:8761/eureka/
-#        healthcheck:
-#                  enabled: true
