@@ -96,3 +96,6 @@ eureka:
 app:
   ConnectTimeout: 100
   ReadTimeout: 3000
+
+
+spring.aop.proxy-target-class: true

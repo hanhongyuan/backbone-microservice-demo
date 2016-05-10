@@ -3,13 +3,12 @@ package net.supersun;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestOperations;
+import org.springframework.web.client.RestTemplate;
 
-import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;
 
@@ -27,9 +26,10 @@ public class CompositeApiController {
 
     private static final Logger LOG = LoggerFactory.getLogger(CompositeApiController.class);
 
-    @Inject
-    @Qualifier("loadBalancedRestTemplate")
-    private RestOperations restTemplate;
+
+
+    @Autowired
+    RestTemplate restTemplate;
 
     @RequestMapping("/c-alpha1")
     @HystrixCommand(fallbackMethod = "defaultAlpha1")
@@ -37,14 +37,12 @@ public class CompositeApiController {
 
         LOG.debug("Will alpha1 with Hystrix protection");
 
-        String url = "https://z-dummy-api-alpha-server/alpha-1/";
-//        String url = "https://localhost:2222/alpha-1/alpha-1/";
+//        String url = "https://z-dummy-api-alpha-server/alpha-1/";
+        String url = "https://z-dummy-api-alpha-server/alpha-1";
+//        String url = "https://localhost:1111/api/v1/bmad/z-alpha/alpha-1";
         LOG.debug("Get alpha1 from URL: {}", url);
 
-//        restTemplate.
-
         ResponseEntity<String> originalAlpha1Response = restTemplate.getForEntity(url, String.class);
-
 
         LOG.debug("getAlpha1 http-status: {}", originalAlpha1Response.getStatusCode());
 
